@@ -73,8 +73,3 @@ class SimuladorQuedaLivre:
             self.master.after(10, passo)
 
         passo()
-
-if __name__ == '__main__':
-    root = tb.Window(themename="cyborg")
-    simulador = SimuladorQuedaLivre(root)
-    root.mainloop()
